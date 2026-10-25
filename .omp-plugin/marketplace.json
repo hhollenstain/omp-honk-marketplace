@@ -1,0 +1,39 @@
+{
+  "name": "omp-honk-marketplace",
+  "owner": {
+    "name": "Henry Hollenstain",
+    "email": "henry.l.hollenstain@gmail.com"
+  },
+  "metadata": {
+    "description": "Custom marketplace for Open Model Platform plugins",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "omp-grill-me-skill",
+      "version": "0.1.0",
+      "description": "Enhanced questioning and deep analysis skill for OMP agents",
+      "source": {
+        "source": "github",
+        "repo": "hhollenstain/omp-grill-me-skill",
+        "ref": "main"
+      },
+      "author": {
+        "name": "Henry Hollenstain"
+      }
+    },
+    {
+      "name": "kiwifs-extension",
+      "version": "1.0.0",
+      "description": "KiwiFS integration module for OMP agents providing knowledge base access and management capabilities",
+      "source": {
+        "source": "github",
+        "repo": "hhollenstain/omp-kiwifs-extension",
+        "ref": "main"
+      },
+      "author": {
+        "name": "Henry Hollenstain"
+      }
+    }
+  ]
+}
