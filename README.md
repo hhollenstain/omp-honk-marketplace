@@ -42,7 +42,7 @@ omp plugin install omp-grill-me-skill@omp-honk-marketplace
    - Ensure the plugin follows OMP plugin standards
 
 2. **Add Plugin to Marketplace Catalog**
-   - Edit `marketplace.json` in this repository
+   - Edit `.omp-plugin/marketplace.json` in this repository
    - Add an entry for your plugin:
    
 ```json
@@ -50,14 +50,20 @@ omp plugin install omp-grill-me-skill@omp-honk-marketplace
   "name": "plugin-name",
   "version": "1.0.0",
   "description": "Plugin description",
-  "source": "git+https://github.com/yourusername/plugin-repo.git",
-  "author": "Your Name"
+  "source": {
+    "source": "github",
+    "repo": "yourusername/plugin-repo",
+    "ref": "main"
+  },
+  "author": {
+    "name": "Your Name"
+  }
 }
 ```
 
 3. **Commit and Push**
    ```bash
-   git add marketplace.json
+   git add .omp-plugin/marketplace.json
    git commit -m "Add plugin-name to marketplace"
    git push origin main
    ```
