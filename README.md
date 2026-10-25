@@ -24,7 +24,7 @@ omp plugin marketplace add https://github.com/hhollenstain/omp-honk-marketplace.
 omp plugin discover omp-honk-marketplace
 
 # Install a plugin (example)
-omp plugin install grill-me-skill@omp-honk-marketplace
+omp plugin install omp-grill-me-skill@omp-honk-marketplace
 ```
 
 ## Publishing Plugins to This Marketplace
