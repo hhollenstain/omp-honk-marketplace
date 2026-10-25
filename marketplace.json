@@ -1,0 +1,13 @@
+{
+  "name": "OMP Honk Marketplace",
+  "description": "Custom marketplace for Open Model Platform plugins",
+  "plugins": [
+    {
+      "name": "grill-me-skill",
+      "version": "0.1.0",
+      "description": "Enhanced questioning and deep analysis skill for OMP agents",
+      "source": "git+https://github.com/hhollenstain/grill-me-skill.git",
+      "author": "Henry Hollenstain"
+    }
+  ]
+}
