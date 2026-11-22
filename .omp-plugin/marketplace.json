@@ -2,11 +2,16 @@
   "name": "omp-honk-marketplace",
   "owner": {
     "name": "Henry Hollenstain",
-    "email": "henry.l.hollenstain@gmail.com"
+    "email": "henry.l.hollenstain@gmail.com",
+    "description": "Maintainer of OMP Honk Marketplace"
   },
   "metadata": {
     "description": "Custom marketplace for Open Model Platform plugins",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "compatibility": {
+      "omp": ">=0.1.0",
+      "platform": "any"
+    }
   },
   "plugins": [
     {
@@ -20,6 +25,10 @@
       },
       "author": {
         "name": "Henry Hollenstain"
+      },
+      "compatibility": {
+        "omp": ">=0.1.0",
+        "platform": "any"
       }
     },
     {
@@ -33,6 +42,10 @@
       },
       "author": {
         "name": "Henry Hollenstain"
+      },
+      "compatibility": {
+        "omp": ">=0.1.0",
+        "platform": "any"
       }
     }
   ]

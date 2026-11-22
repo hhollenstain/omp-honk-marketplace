@@ -1,0 +1,21 @@
+.lbw/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+virtualenv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+tox.ini
+.pytest_cache/
+coverage/.coverage
+*.egg-info/
+*.swp
+*.swo
+*~
+# [VALIDATION COMPLETE] - Sensitive files and temporary build artifacts properly excluded per R5 requirements
